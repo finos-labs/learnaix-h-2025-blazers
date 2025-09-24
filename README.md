@@ -37,7 +37,7 @@ Cheating in online exams has become more sophisticated with AI-powered helpers l
 | Theme            | Proctoring as a Service                               |
 | Contact Email    | [sr.pranav29@gmail.com](mailto:sr.pranav29@gmail.com) |
 | Participants     | S Pranav, Sohan AR, Pratik Jana                       |
-| GitHub Usernames | Pranavsr29, to be filled                              |
+| GitHub Usernames | Pranavsr29,SOHAN-AR,to be filled                              |
 
 
 ---
