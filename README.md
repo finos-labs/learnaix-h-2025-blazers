@@ -1,9 +1,7 @@
 # 🚀 Team Blazers – Smart Proctor  
 
 ## 📌 Problem It Solves  
-Cheating in online exams has become more sophisticated with AI-powered helpers like **InterviewCoder** and **Parakeet AI**.  
-Traditional proctoring methods such as webcam monitoring and screen sharing cannot detect these hidden aids, putting exam integrity at serious risk.
-✨ *Smart Proctor helps institutions detect the undetectable, ensuring fair and secure online examinations.* 
+Cheating in online exams has become more sophisticated with AI-powered helpers like **InterviewCoder** and **Parakeet AI**.Traditional proctoring methods such as webcam monitoring and screen sharing cannot detect these hidden aids, putting exam integrity at serious risk. ✨ *Smart Proctor helps institutions detect the undetectable, ensuring fair and secure online examinations.* 
 
 ---
 
