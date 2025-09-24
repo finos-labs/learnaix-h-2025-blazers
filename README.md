@@ -1,22 +1,29 @@
-Team Blazers - Smart Proctor
+Team Blazers – Smart Proctor
+🚨 Problem It Solves
 
-Problem it solves:
-Cheating in online exams has increased due to AI helpers like InterviewCoder and Parakeet AI, which are hard to detect with traditional proctoring methods.
+The rise of AI-powered helpers such as InterviewCoder and Parakeet AI has made cheating in online exams more sophisticated and harder to detect. Traditional proctoring methods (like webcams and screen monitoring) fail to capture these hidden forms of assistance, putting exam integrity at risk.
 
-How it works:
-Our Moodle plugin, Smart Proctor, records user keystrokes and special key combinations during tests. These patterns are sent to Cortex Analyst (Snowflake) for analysis, which detects unusual or suspicious behavior and flags it for examiners.
+⚙️ How It Works
 
-Technologies used:
+Smart Proctor is a Moodle plugin that strengthens exam security by analyzing keystroke behavior.
+
+It records both normal keystrokes and special key combinations during online tests.
+
+The data is securely processed through Cortex Analyst (Snowflake).
+
+Advanced analysis identifies unusual patterns or suspicious activity, which are then flagged for examiners in real-time.
+
+🛠️ Technologies Used
 
 Moodle Plugin – PHP
 
 Backend API – Flask (Python)
 
-Database – PostgreSQL (to store the Moodle tables)
+Database – PostgreSQL (for Moodle tables)
 
 Containerization – Docker
 
-Cloud & Analysis – Snowflake (Cortex Analyst, hosting Moodle, creating tables)
+Cloud & Analysis – Snowflake (Cortex Analyst, Moodle hosting, and table management)
 
 ## 👥 Team Information
 
