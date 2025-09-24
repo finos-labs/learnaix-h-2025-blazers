@@ -1,29 +1,35 @@
-Team Blazers – Smart Proctor
-🚨 Problem It Solves
+# 🚀 Team Blazers – Smart Proctor  
 
-The rise of AI-powered helpers such as InterviewCoder and Parakeet AI has made cheating in online exams more sophisticated and harder to detect. Traditional proctoring methods (like webcams and screen monitoring) fail to capture these hidden forms of assistance, putting exam integrity at risk.
+## 📌 Problem It Solves  
+Cheating in online exams has become more sophisticated with AI-powered helpers like **InterviewCoder** and **Parakeet AI**.  
+Traditional proctoring methods such as webcam monitoring and screen sharing cannot detect these hidden aids, putting exam integrity at serious risk.  
 
-⚙️ How It Works
+---
 
-Smart Proctor is a Moodle plugin that strengthens exam security by analyzing keystroke behavior.
+## ⚙️ How It Works  
+**Smart Proctor** is a Moodle plugin designed to ensure exam fairness through **keystroke behavior analysis**.  
 
-It records both normal keystrokes and special key combinations during online tests.
+1. ⌨️ Records both **normal keystrokes** and **special key combinations** during online exams.  
+2. ☁️ Sends data securely to **Cortex Analyst (Snowflake)** for real-time analysis.  
+3. 🔍 Detects unusual or suspicious activity patterns.  
+4. 🚨 Flags potential misconduct for examiners with actionable insights.  
 
-The data is securely processed through Cortex Analyst (Snowflake).
+---
 
-Advanced analysis identifies unusual patterns or suspicious activity, which are then flagged for examiners in real-time.
+## 🛠️ Technologies Used  
 
-🛠️ Technologies Used
+| Technology        | Purpose                                   |
+| ----------------- | ----------------------------------------- |
+| **PHP**           | Moodle Plugin Development                 |
+| **Flask (Python)**| Backend API for data processing           |
+| **PostgreSQL**    | Storing Moodle tables and exam data       |
+| **Docker**        | Containerization & Deployment             |
+| **Snowflake**     | Cortex Analyst for analysis + Moodle hosting |
 
-Moodle Plugin – PHP
+---
 
-Backend API – Flask (Python)
+✨ *Smart Proctor helps institutions detect the undetectable, ensuring fair and secure online examinations.*  
 
-Database – PostgreSQL (for Moodle tables)
-
-Containerization – Docker
-
-Cloud & Analysis – Snowflake (Cortex Analyst, Moodle hosting, and table management)
 
 ## 👥 Team Information
 
