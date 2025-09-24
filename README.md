@@ -1,52 +1,45 @@
-# 📬 NatWest Hack4aCause hackathon Project Submission Instructions
+Team Blazers - Smart Proctor
 
-## Repository Submission Requirements
+Problem it solves:
+Cheating in online exams has increased due to AI helpers like InterviewCoder and Parakeet AI, which are hard to detect with traditional proctoring methods.
 
-Each team will be required to submit a GitHub repository with their project. The repository **will** live within the [https://github.com/finos-labs](https://github.com/finos-labs) GitHub Org, and must include the information listed below.
+How it works:
+Our Moodle plugin, Smart Proctor, records user keystrokes and special key combinations during tests. These patterns are sent to Cortex Analyst (Snowflake) for analysis, which detects unusual or suspicious behavior and flags it for examiners.
 
-For example, if your team’s name is `strongestavenger`, your repository will be available:
-**[`learnaix-h-2025-strongestavenger`](https://github.com/finos-labs/learnaix-h-2025-strongestavenger)**
+Technologies used:
 
-Please complete this file and include it in the `main` branch of your repository (`README.md`) along with [`HACK4ACAUSE-TEMPLATE_USECASE.docx`](./HACK4ACAUSE-TEMPLATE_USECASE.docx) when submitting your hackathon project.
+Moodle Plugin – PHP
 
----
+Backend API – Flask (Python)
 
-## 📄 Summary of Your Solution (under 150 words)
+Database – PostgreSQL (to store the Moodle tables)
 
-Briefly describe:
+Containerization – Docker
 
-- What problem does your solution solve?
-- How does it work?
-- What technologies did you use?
+Cloud & Analysis – Snowflake (Cortex Analyst, hosting Moodle, creating tables)
 
 ## 👥 Team Information
 
-| Field            | Details                               |
-| ---------------- | ------------------------------------- |
-| Team Name        | [Your team name]                      |
-| Title            | [Give your project a name]            |
-| Theme            | [E.g., AI companion, Personalized]    |
-| Contact Email    | [Your primary contact email]          |
-| Participants     | [List full names of all participants] |
-| GitHub Usernames | [List usernames e.g., @alice, @bob]   |
+| Field            | Details                                               |
+| ---------------- | ----------------------------------------------------- |
+| Team Name        | blazers                                               |
+| Title            | Detecting the Undetectable                            |
+| Theme            | Proctoring as a Service                               |
+| Contact Email    | [sr.pranav29@gmail.com](mailto:sr.pranav29@gmail.com) |
+| Participants     | S Pranav, Sohan AR, Pratik Jana                       |
+| GitHub Usernames | Pranavsr29, to be filled                              |
+
 
 ---
 
 ## 🎥 Submission Video
 
-Provide a video walkthrough/demo of your project. You can upload it to YouTube, Google Drive, Loom, etc.
+ A video walkthrough/demo of our project.
 
-- 📹 **Video Link**: [Paste link here]
-
----
-
-## 🌐 Hosted App / Solution URL
-
-If your solution is deployed, share the live link here.
-
-- 🌍 **Deployed URL**: [https://your-project-url.com]
+- 📹 **Video Link**: [https://drive.google.com/file/d/18R6zOXkp3-bZN77aRYm5GVgTtSaSjg2s/view?usp=sharing]
 
 ---
+
 
 ## License
 
