@@ -1,0 +1,22 @@
+semantic_model:
+  name: student_keystroke_analysis
+  defaults:
+    agg: COUNT
+  tables:
+    - name: student_keystrokes
+      schema: public
+      database: moodle_app
+  
+  dimensions:
+    - name: key_name
+      type: categorical
+      expr: key_name
+    
+    - name: student
+      type: categorical
+      expr: student_id
+
+  measures:
+    - name: key_press_count
+      expr: 1 # We use 1 here so the default COUNT aggregation works correctly
+      agg: count
